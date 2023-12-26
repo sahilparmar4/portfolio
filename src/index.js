@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/portfolio'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
@@ -26,3 +26,5 @@ reportWebVitals();
 //     "test": "react-scripts test",
 //     "eject": "react-scripts eject",
 //     "repo": "https://github.com/sahilparmar4/portfolio.git"
+
+// "homepage": "https://sahilparmar4.github.io/portfolio",
