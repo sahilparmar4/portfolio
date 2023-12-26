@@ -21,7 +21,7 @@ export default function Header(){
             })
           }
           
-          <button className="btn btn-primary">Visit My Works</button>
+          <a href="https://www.github.com/sahilparmar4" target="_blank" className="btn btn-primary">Visit My Works</a>
         </div>
       </header>
         </>
